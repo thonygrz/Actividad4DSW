@@ -2,18 +2,18 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('biligual test', function() {
-  this.timeout(30000)
+describe('biligual test', function () {
+  this.timeout(120000)
   let driver
   let vars
-  beforeEach(async function() {
+  beforeEach(async function () {
     driver = await new Builder().forBrowser('chrome').build()
     vars = {}
   })
-  afterEach(async function() {
+  afterEach(async function () {
     await driver.quit();
   })
-  it('biligual test', async function() {
+  it('biligual test', async function () {
     await driver.get("https://ship-this.herokuapp.com/")
     await driver.manage().window().setRect(1366, 768)
     await driver.findElement(By.css(".v-select__selections")).click()
