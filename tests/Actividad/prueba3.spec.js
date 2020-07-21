@@ -2,8 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('changeCost', function () {
-
+describe('prueba3', function () {
   this.timeout(120000)
   let driver
   let vars
@@ -11,26 +10,35 @@ describe('changeCost', function () {
     driver = await new Builder().forBrowser('chrome').build()
     vars = {}
   })
-  it('changeCost', async function () {
+  it('prueba3', async function () {
     await driver.get("https://ship-this-backoffice.herokuapp.com/")
     await driver.findElement(By.id("input-37")).click()
     await driver.findElement(By.id("input-37")).sendKeys("admin@gmail.com")
     await driver.findElement(By.id("input-41")).click()
-
     await driver.findElement(By.id("input-41")).sendKeys("password")
     await driver.findElement(By.css(".v-btn__content")).click()
 
     await driver.wait(until.elementLocated(By.css(".dashboard-item:nth-child(5) > .pa-4")), 10000)
     await driver.findElement(By.css(".dashboard-item:nth-child(5) > .pa-4")).click()
 
-    await driver.wait(until.elementLocated(By.css("div:nth-child(1) > .row > .col-sm-6 .v-expansion-panel-header__icon > .v-icon")), 10000)
-    await driver.findElement(By.css("div:nth-child(1) > .row > .col-sm-6 .v-expansion-panel-header__icon > .v-icon")).click()
+    await driver.wait(until.elementLocated(By.css("div:nth-child(4) .v-expansion-panel-header__icon > .v-icon")), 10000)
+    await driver.findElement(By.css("div:nth-child(4) .v-expansion-panel-header__icon > .v-icon")).click()
 
-    await driver.wait(until.elementLocated(By.id("input-112")), 20000)
-    await driver.findElement(By.id("input-112")).click()
+    await driver.wait(until.elementLocated(By.css("div:nth-child(1) > .mb-2 .v-icon")), 10000)
+    await driver.findElement(By.css("div:nth-child(1) > .mb-2 .v-icon")).click()
 
-    await driver.wait(until.elementLocated(By.id("input-112")), 20000)
-    await driver.findElement(By.id("input-112")).sendKeys(Key.chord(Key.CONTROL, "a"), "8.00");
+    await driver.wait(until.elementLocated(By.id("input-170")), 20000)
+    await driver.findElement(By.id("input-170")).click()
+    await driver.findElement(By.id("input-170")).sendKeys(Key.chord(Key.CONTROL, "a"), "10");
+
+
+    await driver.wait(until.elementLocated(By.id("input-173")), 20000)
+    await driver.findElement(By.id("input-173")).click()
+    await driver.findElement(By.id("input-173")).sendKeys(Key.chord(Key.CONTROL, "a"), "4");
+
+    await driver.wait(until.elementLocated(By.id("input-176")), 20000)
+    await driver.findElement(By.id("input-176")).click()
+    await driver.findElement(By.id("input-176")).sendKeys(Key.chord(Key.CONTROL, "a"), "0");
 
     await driver.wait(until.elementLocated(By.css(".success > .v-btn__content"), 20000))
     await driver.findElement(By.css(".success > .v-btn__content")).click()
