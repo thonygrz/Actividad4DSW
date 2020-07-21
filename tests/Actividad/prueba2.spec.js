@@ -11,9 +11,6 @@ describe('changeCost', function () {
         driver = await new Builder().forBrowser('chrome').build()
         vars = {}
     })
-    // afterEach(async function () {
-    //   await driver.quit();
-    // })
     it('changeCost', async function () {
         await driver.get("https://ship-this-backoffice.herokuapp.com/")
         await driver.findElement(By.id("input-37")).click()
@@ -40,5 +37,7 @@ describe('changeCost', function () {
 
         await driver.wait(until.elementLocated(By.css(".v-snack__content"), 20000))
         assert(await driver.findElement(By.css(".v-snack__content")).getText() == "The actualization have been successfully")
+
+        await driver.quit();
     })
 })

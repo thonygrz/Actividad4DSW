@@ -40,5 +40,7 @@ describe('changeCost', function () {
 
     await driver.wait(until.elementLocated(By.css(".v-snack__content"), 20000))
     assert(await driver.findElement(By.css(".v-snack__content")).getText() == "The actualization have been successfully")
+
+    await driver.quit();
   })
 })
