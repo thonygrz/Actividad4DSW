@@ -4,8 +4,16 @@
 
 #### Se deben configurar los webdriver de chrome
 
-##### Para ejecutar las pruebas ir a la ruta raíz del proyecto y ejecutar el siguiente comando: 
-##### `npm test ./tests/Actividad/pruebaNUMERODELAPRUEBA.spec.js`
+##### Para ejecutar todas las pruebas ir a la ruta raíz del proyecto y ejecutar el siguiente comando: 
+##### `npm test`
+
+
+##### El resultado debe ser este
+
+![PRUEBAS](./assets/pruebas.PNG)
+
+##### Si las quieres ejecutar individualmente puedes hacerlo de esta forma:
+##### `npm test ./test/pruebaNUMERODELAPRUEBA.spec.js`
 
 ## Historia de usuario elegida
 
@@ -54,7 +62,7 @@
 ## Proyecto utilizado en la prueba
 
 <p align="center">
-  <a href="https://ship-this-backoffice.herokuapp.com/" target="blank"><img src="./assets/logo_bo.png" width="320" alt="Shipthis Administration Logo" /></a>
+  <a href="https://ship-this-backoffice.herokuapp.com/" target="_blank"><img src="./assets/logo_bo.png" width="320" alt="Shipthis Administration Logo" /></a>
 </p>
 
 ## Autor
