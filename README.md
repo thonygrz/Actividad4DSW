@@ -13,7 +13,7 @@
 ![PRUEBAS](./assets/pruebas.PNG)
 
 ##### Si las quieres ejecutar individualmente puedes hacerlo de esta forma:
-##### `npm test ./tests/Actividad/pruebaNUMERODELAPRUEBA.spec.js`
+##### `npm test ./test/pruebaNUMERODELAPRUEBA.spec.js`
 
 ## Historia de usuario elegida
 
