@@ -54,7 +54,7 @@
 ## Proyecto utilizado en la prueba
 
 <p align="center">
-  <a href="https://ship-this-backoffice.herokuapp.com/" target="blank"><img src="./assets/logo_bo.png" width="320" alt="Shipthis Administration Logo" /></a>
+  <a href="https://ship-this-backoffice.herokuapp.com/" target="_blank"><img src="./assets/logo_bo.png" width="320" alt="Shipthis Administration Logo" /></a>
 </p>
 
 ## Autor
