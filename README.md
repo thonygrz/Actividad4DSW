@@ -15,22 +15,33 @@
 
 #### Cambio de la configuración del costo
 
-        ![E1-1](./assets/escenario1-1.PNG)
-        ![E1-2](./assets/escenario1-2.PNG)
+![E1-1](./assets/escenario1-1.PNG)
+![E1-2](./assets/escenario1-2.PNG)
 
 
 #### Cambio de los costos de los tipos de órdenes
-        
-        ![E2-1](./assets/escenario2-1.PNG)
-        ![E2-2](./assets/escenario2-2.PNG)
-        ![E2-3](./assets/escenario2-3.PNG)
-        ![E2-4](./assets/escenario2-4.PNG)
-        ![E2-5](./assets/escenario2-5.PNG)
-        ![E2-6](./assets/escenario2-6.PNG)
-        ![E2-7](./assets/escenario2-7.PNG)
-        ![E2-8](./assets/escenario2-8.PNG)
-        
+
+![E2-1](./assets/escenario2-1.PNG)
+![E2-2](./assets/escenario2-2.PNG)
+![E2-3](./assets/escenario2-3.PNG)
+![E2-4](./assets/escenario2-4.PNG)
+![E2-5](./assets/escenario2-5.PNG)
+![E2-6](./assets/escenario2-6.PNG)
+![E2-7](./assets/escenario2-7.PNG)
+![E2-8](./assets/escenario2-8.PNG)
+
 ## Pruebas E2E
+
+![P1](./assets/prueba1.PNG)
+![P2](./assets/prueba2.PNG)
+![P3](./assets/prueba3.PNG)
+![P4](./assets/prueba4.PNG)
+![P5](./assets/prueba5.PNG)
+![P6](./assets/prueba6.PNG)
+![P7](./assets/prueba7.PNG)
+![P8](./assets/prueba8.PNG)
+![P9](./assets/prueba9.PNG)
+![P10](./assets/prueba10.PNG)
 
 ## Software utilizado
 
