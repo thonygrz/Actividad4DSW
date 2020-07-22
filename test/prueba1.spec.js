@@ -2,7 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('changeCost', function () {
+describe('prueba1', function () {
 
   this.timeout(120000)
   let driver
@@ -11,7 +11,7 @@ describe('changeCost', function () {
     driver = await new Builder().forBrowser('chrome').build()
     vars = {}
   })
-  it('changeCost', async function () {
+  it('prueba1', async function () {
     await driver.get("https://ship-this-backoffice.herokuapp.com/")
     await driver.findElement(By.id("input-37")).click()
     await driver.findElement(By.id("input-37")).sendKeys("admin@gmail.com")

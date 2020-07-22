@@ -2,7 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('prueba3', function () {
+describe('prueba6', function () {
     this.timeout(120000)
     let driver
     let vars
@@ -10,7 +10,7 @@ describe('prueba3', function () {
         driver = await new Builder().forBrowser('chrome').build()
         vars = {}
     })
-    it('prueba3', async function () {
+    it('prueba6', async function () {
         await driver.get("https://ship-this-backoffice.herokuapp.com/")
         await driver.findElement(By.id("input-37")).click()
         await driver.findElement(By.id("input-37")).sendKeys("admin@gmail.com")
@@ -24,14 +24,12 @@ describe('prueba3', function () {
         await driver.wait(until.elementLocated(By.css("div:nth-child(4) .v-expansion-panel-header__icon > .v-icon")), 10000)
         await driver.findElement(By.css("div:nth-child(4) .v-expansion-panel-header__icon > .v-icon")).click()
 
-        await driver.sleep(1000).then(async function () {
-            await driver.wait(until.elementLocated(By.css("div:nth-child(4) > .mb-2 .v-icon")), 10000)
-            await driver.findElement(By.css("div:nth-child(4) > .mb-2 .v-icon")).click()
-        })
+        await driver.wait(until.elementLocated(By.css("div:nth-child(2) > .mb-2 .v-icon")), 10000)
+        await driver.findElement(By.css("div:nth-child(2) > .mb-2 .v-icon")).click()
 
         await driver.wait(until.elementLocated(By.id("input-170")), 20000)
         await driver.findElement(By.id("input-170")).click()
-        await driver.findElement(By.id("input-170")).sendKeys(Key.chord(Key.CONTROL, "a"), "10");
+        await driver.findElement(By.id("input-170")).sendKeys(Key.chord(Key.CONTROL, "a"), " ");
 
 
         await driver.wait(until.elementLocated(By.id("input-173")), 20000)
@@ -46,7 +44,7 @@ describe('prueba3', function () {
         await driver.findElement(By.css(".success > .v-btn__content")).click()
 
         await driver.wait(until.elementLocated(By.css(".v-snack__content"), 20000))
-        assert(await driver.findElement(By.css(".v-snack__content")).getText() == "The actualization have been successfully")
+        assert(await driver.findElement(By.css(".v-snack__content")).getText() == "There was been an error. Please check")
 
         await driver.quit();
     })

@@ -4,7 +4,15 @@
 
 #### Se deben configurar los webdriver de chrome
 
-##### Para ejecutar las pruebas ir a la ruta raíz del proyecto y ejecutar el siguiente comando: 
+##### Para ejecutar todas las pruebas ir a la ruta raíz del proyecto y ejecutar el siguiente comando: 
+##### `npm test`
+
+
+##### El resultado debe ser este
+
+![PRUEBAS](./assets/pruebas.PNG)
+
+##### Si las quieres ejecutar individualmente puedes hacerlo de esta forma:
 ##### `npm test ./tests/Actividad/pruebaNUMERODELAPRUEBA.spec.js`
 
 ## Historia de usuario elegida
