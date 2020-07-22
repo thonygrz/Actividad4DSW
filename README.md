@@ -15,16 +15,16 @@
 
 #### Cambio de la configuración del costo
 
-![E1-1](./assets/escenario1-1.png)
-![E1-2](./assets/escenario1-2.png)
-![E2-1](./assets/escenario2-1.png)
-![E2-2](./assets/escenario2-2.png)
-![E2-3](./assets/escenario2-3.png)
-![E2-4](./assets/escenario2-4.png)
-![E2-5](./assets/escenario2-5.png)
-![E2-6](./assets/escenario2-6.png)
-![E2-7](./assets/escenario2-7.png)
-![E2-8](./assets/escenario2-8.png)
+![E1-1](./assets/escenario1-1.PNG)
+![E1-2](./assets/escenario1-2.PNG)
+![E2-1](./assets/escenario2-1.PNG)
+![E2-2](./assets/escenario2-2.PNG)
+![E2-3](./assets/escenario2-3.PNG)
+![E2-4](./assets/escenario2-4.PNG)
+![E2-5](./assets/escenario2-5.PNG)
+![E2-6](./assets/escenario2-6.PNG)
+![E2-7](./assets/escenario2-7.PNG)
+![E2-8](./assets/escenario2-8.PNG)
 
 ####Cambio de los costos de los tipos de órdenes
 
